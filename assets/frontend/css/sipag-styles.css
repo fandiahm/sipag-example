@@ -63,6 +63,7 @@ html {
 
 .content-center {
     width: 100%;
+    margin: 0 auto; 
 }
 
 .center {
