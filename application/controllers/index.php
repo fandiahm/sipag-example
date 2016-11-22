@@ -152,6 +152,7 @@ class Index extends CI_Controller
                 $section_bgimage = $section->bgimage;
                 if(!empty($section_bgimage) && ($use_bgimage == '1'))
                 {
+                    /* custom styling for sipag-example */
                     if($section_name == 'about')
                     {
                         $bgimage = 'background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('.base_url().''.$section_bgimage.'); background-size:cover';
@@ -179,12 +180,10 @@ class Index extends CI_Controller
                 $section_va = $section->vertical_align;
                 if($section_va == '1')
                 {
-                    $class_va_container = "vertical-align";
                     $class_va_section = "vertical-section";
                 }
                 else
                 {
-                    $class_va_container = "";
                     $class_va_section = "";
                 }
 
@@ -200,7 +199,6 @@ class Index extends CI_Controller
                 $data['section'][$i]['data_scroll_index'] = $data_scroll_index;
                 $data['section'][$i]['bgimage'] = $bgimage;
                 $data['section'][$i]['bgcolor'] = $bgcolor;
-                $data['section'][$i]['class_va_container'] = $class_va_container;
                 $data['section'][$i]['class_va_section'] = $class_va_section; 
 
                 $find_title = $this->Model_section->find_title($sid);
