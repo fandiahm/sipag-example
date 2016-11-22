@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 21 Nov 2016 pada 21.21
+-- Generation Time: 22 Nov 2016 pada 15.20
 -- Versi Server: 5.6.25
 -- PHP Version: 5.6.11
 
@@ -254,7 +254,7 @@ CREATE TABLE `setting` (
 --
 
 INSERT INTO `setting` (`setting_id`, `site_name`, `site_title`, `site_logo`, `meta_keyword`, `meta_description`, `site_theme`, `name_smtp`, `email_smtp`, `pass_smtp`, `banner_display`, `banner_display_header`, `banner_display_caption`, `banner_display_button`, `banner_nav_button`, `banner_autoplay`, `banner_animation`, `section_title_tinymce`, `section_advanced_option`, `section_bgcolor`, `section_bgimage`, `navbar_inverse`, `navbar_transparent`, `navbar_pull_right`, `display_logo`, `display_navbar`, `display_contact`, `display_footer`, `scroll_time`, `scroll_offset`) VALUES
-(1, 'Company Profile', 'Your Company Name', 'assets/uploads/logo/1475653507_codeigniter-icon.png', 'Demo Sipag CMS', 'Demo Sipag CMS', 'theme/paper/bootstrap_min.css', 'Sipag CMS', '', '', '1', '1', '1', '0', '1', '0', '2', '1', '1', '1', '1', '0', '1', '1', '1', '1', '0', '0', 1000, 0);
+(1, 'Company Profile', 'Your Company Name', 'assets/uploads/logo/1475653507_codeigniter-icon.png', 'Demo Sipag CMS', 'Demo Sipag CMS', 'theme/cosmo/bootstrap_min.css', 'Sipag CMS', '', '', '1', '1', '1', '0', '1', '0', '2', '1', '1', '1', '1', '0', '0', '1', '1', '1', '0', '0', 1000, 0);
 
 -- --------------------------------------------------------
 
