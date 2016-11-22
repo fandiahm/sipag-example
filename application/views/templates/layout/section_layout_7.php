@@ -24,6 +24,7 @@
 </div>
 <!-- /. -->
 
+<!-- custom script for sipag-example -->
 <?php if($sid == '30'): ?>
     <script>
     jQuery(function($){var name_class='.carousel-<?php echo $sid; ?>';$(name_class).owlCarousel({loop:true,margin:10,autoPlay:true,responsive:{0:{items:1,nav:false,navigation:true},600:{items:3,nav:false,navigation:true},1000:{items:5}}});});</script>
